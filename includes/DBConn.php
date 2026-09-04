@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-const DB_HOST = 'sql308.infinityfree.com';   
-const DB_USER = 'if0_42829833_XXX';               
-const DB_PASS = 'XoNJ0oPhzL';               
-const DB_NAME = 'if0_42829833_ctst_db';       
-const DB_PORT = 3306;
+const DB_HOST = '127.0.0.1';   
+const DB_USER = 'root';         
+const DB_PASS = '';             
+const DB_NAME = 'ctst_db';     
+const DB_PORT = 3306;           
 
 function getDbConnection(): mysqli
 {

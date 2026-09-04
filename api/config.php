@@ -4,11 +4,11 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST');
 header('Access-Control-Allow-Headers: Content-Type');
 
-define('DB_HOST', 'sql308.infinityfree.com');
-define('DB_USER', 'if0_42829833');
-define('DB_PASS', 'XoNJ0oPhzL');
-define('DB_NAME', 'if0_42829833_ctst_db');
-define('DB_PORT', 3306);
+// Same credentials as DBConn.php
+define('DB_HOST', '127.0.0.1');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'ctst_db');
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 if ($conn->connect_error) {
